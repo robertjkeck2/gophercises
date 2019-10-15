@@ -20,8 +20,7 @@ var timer int
 
 // QuestionAnswer is a question/answer pair for quiz questions
 type QuestionAnswer struct {
-	Question string
-	Answer   string
+	Question, Answer string
 }
 
 // Determine flag values for quiz
